@@ -32,14 +32,13 @@ Compiled & Deployed Solidity `JointSavings` smart contract:
 
 2. Test the deposit functionality of the smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to the contract:
 
-- Transaction 1: Send 1 ether as wei 
+- Transaction 1- Send 1 ether as wei: 
     ![Deposit1Eth](./Execution_Results/Dep_1Eth-2022-08-03175944.png)
 
-- Transaction 2: Send 10 ether as wei  
- 
+- Transaction 2- Send 10 ether as wei:  
     ![Deposit10Eth](./Execution_Results/Dep_10Eth-2022-08-03180618.png) 
 
-- Transaction 3: Send 5 ether as wei
+- Transaction 3- Send 5 ether as wei:
     ![Deposit5Eth](./Execution_Results/Dep_5Eth-2022-08-03181100.png) 
 
 
