@@ -14,36 +14,47 @@ To automate the creation of joint savings accounts, implementation of a Solidity
 ---
 ## Evaluation Results
 
-In the completed Solidity JointSavings smart contract a folder named Execution_Results contains at least eight images. These images are confirms that the deposit and withdrawal transactions are designed to test the JointSavings functionality in the JavaScript VM, worked as expected.
+In the completed Solidity `JointSavings` smart contract a folder named `Execution_Results` contains at least eight images. These images are confirms that the deposit and withdrawal transactions are designed to test the `JointSavings` functionality in the JavaScript VM, worked as expected.
 
-Now that your contract is deployed, it’s time to test its functionality! After each step, capture a screenshot of the execution, and then save it in a folder named Execution_Results. You’ll share this folder with your final submission below. 
-To interact with your deployed smart contract, complete the following steps:  
+Now that your contract is deployed, it’s time to test its functionality! After each step, capture a screenshot of the execution, and then save it in a folder named `Execution_Results`. You’ll share this folder with your final submission below. 
 
-1. Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from your contract. 
+To interact with your compiled & deployed smart contract, complete the following steps:
 
-    ![](./Images/2ndSelctnJo_2022-07-27192031.png)
+![Compiled&Deployed](./Execution_Results/Compile_Deploy-2022-08-03193111.png)
 
-2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract:
+1. Use the `setAccounts` function to define the authorized Ethereum address that will be able to withdraw funds from your contract. 
 
-- Transaction 1: Send 1 ether as wei.
-    ![](./Images/2ndBlkTxJo_2022-07-27192109.png)
+    ![SetAccounts](./Execution_Results/Set_Accts-2022-08-03175343.png)
+
+2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
+
+- Transaction 1: Send 1 ether as wei 
+    ![Deposit1Eth](./Execution_Results/Dep_1Eth-2022-08-03175944.png)
 
 -  
 
-- Transaction 2: Send 10 ether as wei: 
-    ![](./Images/TxLdgeHist_2022-07-27192356.png) 
+- Transaction 2: Send 10 ether as wei  
+ 
+    ![Deposit10Eth](./Execution_Results/Dep_10Eth-2022-08-03180618.png) 
 
-- Transaction 3: Send 5 ether.:
-    ![](./Images/BlkTxHist_2022-07-27192235.png) 
+- Transaction 3: Send 5 ether as wei
+    ![Deposit5Eth](./Execution_Results/Dep_5Eth-2022-08-03181100.png) 
 
 
 
-3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
+3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct. 
 
-    ![](./Images/TxLdgr_Blk2_2022-07-27192430.png) 
+- AccountOne Withdrawal with the `contractBalance` function:
 
-- :* 
-    ![](./Images/Blk2_TxLdgrJo_2022-07-27192256.png) 
+    ![WithdrawalAcct1](./Execution_Results/Wtdrwl1_5Eth-2022-08-03182515.png) 
+
+- AccountOne Withdrawal with the `lastToWithdraw` and `lastWithdrawAmount` functions: 
+
+    ![WithdrawalAcct1](./Execution_Results/Wtdrwl1_5Eth2-2022-08-03182918.png)
+
+- AccountTwo Withdrawal with the `contractBalance`, `lastToWithdraw` and `lastWithdrawAmount` functions: 
+ 
+    ![WithdrawalAcct2](./Execution_Results/Wthdrwl2_10Eth-2022-08-03183403.png) 
 
 
 ---
