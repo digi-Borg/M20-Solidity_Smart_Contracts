@@ -47,7 +47,7 @@ contract JointSavings {
         /*
         Define a `require` statement that checks if the `balance` is sufficient to accomplish the withdraw operation. If there are insufficient funds, the text `Insufficient funds!` is returned.
         */
-        require(withdraw >= balance, "Insufficient funds!");
+        require(withdraw <= balance, "Insufficient funds!");
 
         /*
         Add and `if` statement to check if the `lastToWithdraw` is not equal to (`!=`) to `recipient` If `lastToWithdraw` is not equal, then set it to the current value of `recipient`.
@@ -78,7 +78,7 @@ contract JointSavings {
     /*
     Define a `public` function named `setAccounts` that receive two `address payable` arguments named `account1` and `account2`.
     */
-    function setAccounts(address payable account1, address payable account2) public{
+    function setAccounts(address payable account1, address payable account2) public {
 
         // Set the values of `accountOne` and `accountTwo` to `account1` and `account2` respectively.
         accountOne = account1; 
