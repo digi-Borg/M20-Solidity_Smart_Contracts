@@ -85,7 +85,7 @@ The following libraries are accessible:
 [ethers.js](https://docs.ethers.io/) 
 remix 
 ```
-Once compiled, the code runs in the **Ethereum Virtual Machine (EVM)**:
+
 
 ---
 
@@ -98,6 +98,7 @@ To interact with your deployed smart contract, select an ‘Account’ to comple
 ### 1. Compile and Deploy Your Contract in the JavaScript VM. 
 
 1.	In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “JavaScript VM” is selected as the environment. 
+- On the far left select 'Solidity'compiler; once compiled, the code runs in the **Ethereum Virtual Machine (EVM)**.
 
 2.	Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
 - The terminal can be used to check transactions details and start debugging. 
