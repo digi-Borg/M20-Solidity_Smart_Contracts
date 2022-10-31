@@ -1,17 +1,18 @@
-# M20-Solidit_Smart_Contracts
+# M20-Solidity_Smart_Contracts
+
 
 ![M20Title](./Images/M20Title_2022-07-30231559.png)
 
 *"Developing a Smart Contract in 'Solidity' for a FinTech startup company using the Ethereum-compatible block chain for transactions that connects counterparty financial institutions."* 
 
-
+--- 
 ## Background 
 
 This fintech startup company has recently hired a team to build smart contracts to automate many of the institutions’ financial processes and features, such as hosting joint savings accounts. The team intends to be the pioneer of the finance industry with its own cross-border Ethereum-compatible blockchain that connects financial institutions. 
 
-To automate the creation of joint savings accounts, implementation of a Solidity smart contract is constructed that accepts two user addresses. These addresses will be able to control a joint savings account. The smart contract will use ether management functions to implement a financial institution’s requirements for providing the features of the joint savings account. These features will consist of the ability to deposit and withdraw funds from the account.  
+To automate the creation of joint savings accounts, the implementation of a Solidity smart contract is constructed to accept two user addresses. These addresses will be able to control a joint savings account. The smart contract will use ether management functions to implement a financial institution’s requirements for providing the features of the joint savings account. These features will consist of the ability to deposit and withdraw funds from the account.  
 
----
+--- 
 #
 ## Evaluation Results
 
@@ -88,10 +89,10 @@ remix
 
 
 ---
-
+#
 ## Usage
 
-This application is deployed and run for smart contract transactions to deposit and withdraw `eth` between user accounts in the EthereumVM.  It is launched from the Remix 0.25.1 using Solidity language for the **.sol** file to build the ` joint_savings.sol`. The 'Remix' GUI on the left side of the web page utilizes the program code to run the Smartcontracts Ethereum blockchain transactions. It is deployed in the Remix VM(London) JavaScript Environment utilizing the ‘Solidity’ compiler and tools. 
+This application is deployed and run for smart contract transactions to deposit and withdraw `eth` between user accounts in the EthereumVM.  It is launched from the Remix 0.25.1 using Solidity language for the **.sol** file to build the [`joint_savings.sol`](M20-Solidity_Smart_Contracts\joint_savings.sol). The 'Remix' GUI on the left side of the web page utilizes the program code to run the Smartcontracts Ethereum blockchain transactions. It is deployed in the Remix VM(London) JavaScript Environment utilizing the ‘Solidity’ compiler and tools. 
 The user of the program application operates through the Remix IDE website that provides functionality to create an EthereumVM for blockchain transactions and perform the following:  
 To interact with your deployed smart contract, select an ‘Account’ to complete the following steps: 
 
@@ -133,10 +134,11 @@ Dana Hayes: nydane1@gmail.com
 
 
 ---
-
+#
 ## License  
 
 Columbia U. Engineering 
---
+
+#
 [BSD 2-Clause LicenseCopyright (c) 2022, digi-Borg
 All rights reserved.](/LICENSE)
